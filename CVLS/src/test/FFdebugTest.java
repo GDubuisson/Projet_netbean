@@ -1,5 +1,6 @@
-package cvls;
+package test;
 
+import cvls.FFdebugCalc;
 import java.util.Scanner;
 
 public class FFdebugTest {
