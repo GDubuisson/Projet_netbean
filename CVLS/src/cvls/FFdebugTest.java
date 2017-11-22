@@ -58,7 +58,7 @@ public class FFdebugTest {
         FFdebugTest debug = new FFdebugTest(new int[3]);
         FFdebugTest.getValue(debug.myArray);
         System.out.println("La plus grande valeur est : "
-                + FFdebugCalc.findMax(debug.myArray));
+                + FFdebugCalc.trouverMax(debug.myArray));
     }
 
     public static void getValue(int[] array) {
