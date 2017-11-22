@@ -7,7 +7,7 @@ public class FFdebugCalc {
      * @param array of integers
      * @return integer
      */
-    public static int findMax(int[] array) {
+    public static int trouverMax(int[] array) {
         int max = array[0];
         for (int i = 0; i < array.length; i++) {
             if (array[i] > max) {
